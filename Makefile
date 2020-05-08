@@ -45,3 +45,4 @@ lint:
 	pylint --disable=R,C,W1203 app.py
 
 all: setup install lint test
+
