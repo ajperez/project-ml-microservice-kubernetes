@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) ubuntu@ip-172-31-83-19:~/project-ml-microservice-kubernetes$ sudo ./run_kubernetes.sh
+Error from server (AlreadyExists): deployments.apps "ms-ajpm" already exists
+NAME                      READY   STATUS    RESTARTS   AGE
+ms-ajpm-6793c35rd4-tn2i4   1/1     Running   0          7m40s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
